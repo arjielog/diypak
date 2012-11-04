@@ -1,0 +1,3 @@
+#!/bin/bash
+cd $OPENSHIFT_REPO_DIR/bin
+nohup ./binhello >${OPENSHIFT_LOG_DIR}/binhello.log 2>&1 &
